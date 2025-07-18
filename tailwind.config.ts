@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Phrase Canvas specific colors
+				'canvas-gradient': {
+					start: 'hsl(var(--canvas-gradient-start))',
+					middle: 'hsl(var(--canvas-gradient-middle))',
+					end: 'hsl(var(--canvas-gradient-end))'
+				},
+				'balloon-border': 'hsl(var(--balloon-border))',
+				'phrase-list': 'hsl(var(--phrase-list-bg))',
+				'phrase-item-hover': 'hsl(var(--phrase-item-hover))',
+				'auth-bg': 'hsl(var(--auth-bg))',
+				'auth-border': 'hsl(var(--auth-border))'
+			},
+			backgroundImage: {
+				'canvas-gradient': 'linear-gradient(to bottom, hsl(var(--canvas-gradient-start)), hsl(var(--canvas-gradient-middle)), hsl(var(--canvas-gradient-end)))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
